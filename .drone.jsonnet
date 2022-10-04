@@ -10,6 +10,7 @@ local lib = import '.drone.libsonnet';
 local SUBPROJECTS = [
   // lib.sub(import 'path/to/subproject', 'path/to/subproject'),
   lib.sub(import './py_utils/.drone.jsonnet', './py_utils'),
+  lib.sub(import './ts_utils/.drone.jsonnet', './ts_utils'),
 ];
 
 
