@@ -1,4 +1,4 @@
-local lib = import '../.drone.libsonnet';
+local lib = import '../drone.libsonnet';
 [
   lib.pipe(
     'TS Utils',
