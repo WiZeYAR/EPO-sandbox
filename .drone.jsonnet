@@ -1,5 +1,5 @@
 // -------- IMPORTS
-local lib = import 'drone.libsonnet';
+local lib = import 'monorepo-pipeline.jsonnet';
 
 // -------- LIST OF ALL SUBPROJECTS
 
